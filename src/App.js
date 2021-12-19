@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import {Navbar, NavbarBrand} from 'reactstrap';
+import React, { Component } from "react";
 import StaffList from './components/StaffListComponent';
 import './App.css';
 import {STAFFS} from './shared/staffs';
@@ -21,7 +22,7 @@ class App extends Component {
           </div>
         </Navbar>
         <StaffList staffs={this.state.staffs}/>
-      </div>;
+      </div>
     );
   }
 }
